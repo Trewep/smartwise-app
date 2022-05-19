@@ -2,14 +2,99 @@
 # This file is distributed under the same license as the Plugins - Members &#8211; Membership &amp; User Role Editor Plugin - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-01-10 15:03:20+0000\n"
+"PO-Revision-Date: 2022-05-18 08:10:06+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"X-Generator: GlotPress/4.0.0-alpha.1\n"
 "Language: nl_BE\n"
 "Project-Id-Version: Plugins - Members &#8211; Membership &amp; User Role Editor Plugin - Stable (latest release)\n"
+
+#: admin/class-notifications.php:633
+msgid "Dismiss All"
+msgstr "Alle negeren"
+
+#: admin/class-notifications.php:630
+msgid "Notifications"
+msgstr "Notificaties"
+
+#: admin/class-notifications.php:617
+msgid "Close"
+msgstr "Sluiten"
+
+#: admin/class-notifications.php:616
+msgid "View Active"
+msgstr "Weergave actief"
+
+#: admin/class-notifications.php:615
+msgid "View Dismissed"
+msgstr "Bekijk genegeerd"
+
+#: admin/class-notifications.php:612
+msgid "Inbox"
+msgstr "Inbox"
+
+#: admin/class-notifications.php:537
+msgid "You're all caught up!"
+msgstr "Je bent helemaal bij!"
+
+#: admin/class-notifications.php:513 admin/class-notifications.php:578
+msgid "%s year ago"
+msgid_plural "%s years ago"
+msgstr[0] "%s jaar geleden"
+msgstr[1] "%s jaren geleden"
+
+#: admin/class-notifications.php:511 admin/class-notifications.php:576
+msgid "%s month ago"
+msgid_plural "%s months ago"
+msgstr[0] "%s maand geleden"
+msgstr[1] "%s maanden geleden"
+
+#: admin/class-notifications.php:509 admin/class-notifications.php:574
+msgid "%s week ago"
+msgid_plural "%s weeks ago"
+msgstr[0] "%s week geleden"
+msgstr[1] "%s weken geleden"
+
+#: admin/class-notifications.php:507 admin/class-notifications.php:572
+msgid "%s day ago"
+msgid_plural "%s days ago"
+msgstr[0] "%s dag geleden"
+msgstr[1] "%s dagen geleden"
+
+#: admin/class-notifications.php:505 admin/class-notifications.php:570
+msgid "%s hour ago"
+msgid_plural "%s hours ago"
+msgstr[0] "%s uur geleden"
+msgstr[1] "%s uren geleden"
+
+#: admin/class-notifications.php:503 admin/class-notifications.php:568
+msgid "%s minute ago"
+msgid_plural "%s minutes ago"
+msgstr[0] "%s minuut geleden"
+msgstr[1] "%s minuten geleden"
+
+#: admin/class-notifications.php:501 admin/class-notifications.php:566
+msgid "%s second ago"
+msgid_plural "%s seconds ago"
+msgstr[0] "%s seconde geleden"
+msgstr[1] "%s seconden geleden"
+
+#: admin/class-notifications.php:494 admin/class-notifications.php:559
+msgid "Dismiss"
+msgstr "Negeren"
+
+#: admin/class-notifications.php:423
+msgid "%s unread message"
+msgid_plural "%s unread messages"
+msgstr[0] "%s ongelezen bericht"
+msgstr[1] "%s ongelezen berichten"
+
+#. Translators: Readable time to display
+#: admin/class-notifications.php:290
+msgid "%1$s ago"
+msgstr "%1$s geleden"
 
 #: admin/class-meta-box-content-permissions.php:243
 #: admin/class-meta-box-content-permissions.php:364
@@ -61,7 +146,7 @@ msgstr "Het spijt ons te horen dat je niet geniet van Members. We willen graag e
 
 #: admin/class-review-prompt.php:90
 msgid "I already did"
-msgstr "Ik heb het al gedaan"
+msgstr "Heb ik al gedaan"
 
 #: admin/class-review-prompt.php:89
 msgid "Nope, maybe later"
@@ -77,7 +162,7 @@ msgstr "Dat is geweldig! Kun je me alsjeblieft een GROOT plezier doen en het een
 
 #: admin/class-review-prompt.php:81
 msgid "Are you enjoying using Members?"
-msgstr "Vindt je het leuk om Members te gebruiken?"
+msgstr "Vind je het leuk om Members te gebruiken?"
 
 #: addons/members-core-create-caps/addon.php:30
 msgid "Create Pages"
@@ -133,11 +218,11 @@ msgstr "Beheertoegang per gebruikersrol."
 
 #: addons/members-admin-access/app/class-view-settings.php:45
 msgid "Toolbar"
-msgstr "Toolbar"
+msgstr "Werkbalk"
 
 #: addons/members-admin-access/app/class-view-settings.php:44
 msgid "Redirect"
-msgstr "Omleiden"
+msgstr "Redirect"
 
 #: addons/members-admin-access/app/class-view-settings.php:43
 msgid "Select Roles"
@@ -165,59 +250,59 @@ msgstr "WooCommerce"
 
 #: addons/members-woocommerce-integration/src/functions-caps.php:270
 msgid "Allows access to coupon taxonomy management screens."
-msgstr "Geeft toegang tot coupon taxonomie beheerschermen."
+msgstr "Geeft toegang tot waardebon taxonomie beheerschermen."
 
 #: addons/members-woocommerce-integration/src/functions-caps.php:269
 msgid "Coupons: Manage Taxonomy Terms"
-msgstr "Waardebon: Taxonomie voorwaarden beheren"
+msgstr "Waardebon: taxonomie voorwaarden beheren"
 
 #: addons/members-woocommerce-integration/src/functions-caps.php:265
 msgid "Allows users to delete coupon taxonomy terms."
-msgstr "Geeft gebruikers toegang tot het verwijderen van coupon taxonomie voorwaarden."
+msgstr "Geeft gebruikers toegang tot het verwijderen van waardebon taxonomie voorwaarden."
 
 #: addons/members-woocommerce-integration/src/functions-caps.php:264
 msgid "Coupons: Delete Taxonomy Terms"
-msgstr "Waardebon: Taxonomie voorwaarden verwijderen"
+msgstr "Waardebon: taxonomie voorwaarden verwijderen"
 
 #: addons/members-woocommerce-integration/src/functions-caps.php:260
 msgid "Allows users to edit coupon taxonomy terms."
-msgstr "Geeft gebruikers toegang tot het bewerken van coupon taxonomievoorwaarden."
+msgstr "Geeft gebruikers toegang tot het bewerken van waardebon taxonomievoorwaarden."
 
 #: addons/members-woocommerce-integration/src/functions-caps.php:259
 msgid "Coupons: Edit Taxonomy Terms"
-msgstr "Waardebon: Taxonomie voorwaarden bewerken"
+msgstr "Waardebon: taxonomie voorwaarden bewerken"
 
 #: addons/members-woocommerce-integration/src/functions-caps.php:255
 msgid "Allows users to assign taxonomy terms to coupons."
-msgstr "Geeft gebruikers toegang tot het toewijzen van taxonomie voorwaarden aan coupons."
+msgstr "Geeft gebruikers toegang tot het toewijzen van taxonomie voorwaarden aan waardebonnen."
 
 #: addons/members-woocommerce-integration/src/functions-caps.php:254
 msgid "Coupons: Assign Taxonomy Terms"
-msgstr "Waardebon: Taxonomie voorwaarden toewijzen"
+msgstr "Waardebon: taxonomie voorwaarden toewijzen"
 
 #: addons/members-woocommerce-integration/src/functions-caps.php:249
 msgid "Allows users to delete published coupons."
-msgstr "Geeft gebruikers toegang tot het verwijderen van gepubliceerde coupons."
+msgstr "Geeft gebruikers toegang tot het verwijderen van gepubliceerde waardebonnen."
 
 #: addons/members-woocommerce-integration/src/functions-caps.php:248
 msgid "Coupons: Delete Published"
-msgstr "Waardebon: Gepubliceerd verwijderen"
+msgstr "Waardebon: gepubliceerd verwijderen"
 
 #: addons/members-woocommerce-integration/src/functions-caps.php:244
 msgid "Allows users to delete other users' coupons."
-msgstr "Geeft gebruikers toegang tot het verwijderen van coupons van andere gebruikers."
+msgstr "Geeft gebruikers toegang tot het verwijderen van waardebonnen van andere gebruikers."
 
 #: addons/members-woocommerce-integration/src/functions-caps.php:243
 msgid "Coupons: Delete Others'"
-msgstr "Waardebon: Verwijder anderen"
+msgstr "Waardebon: verwijder anderen"
 
 #: addons/members-woocommerce-integration/src/functions-caps.php:239
 msgid "Allows users to delete private coupons."
-msgstr "Geeft gebruikers toegang tot het verwijderen van privé coupons."
+msgstr "Geeft gebruikers toegang tot het verwijderen van privé waardebonnen."
 
 #: addons/members-woocommerce-integration/src/functions-caps.php:238
 msgid "Coupons: Delete Private"
-msgstr "Waardebon: Privé verwijderen"
+msgstr "Waardebon: privé verwijderen"
 
 #: addons/members-woocommerce-integration/src/functions-caps.php:232
 msgid "Allows users to delete coupons. May need to be combined with other %s capabilities, depending on the scenario."
@@ -225,15 +310,15 @@ msgstr "Geeft gebruikers toegang tot het verwijderen van coupons. Mogelijk moet 
 
 #: addons/members-woocommerce-integration/src/functions-caps.php:230
 msgid "Coupons: Delete"
-msgstr "Waardebon: Verwijderen"
+msgstr "Waardebon: verwijderen"
 
 #: addons/members-woocommerce-integration/src/functions-caps.php:226
 msgid "Allows users to read private coupons."
-msgstr "Geeft gebruikers toegang tot privé coupons lezen."
+msgstr "Geeft gebruikers toegang tot privé waardebon lezen."
 
 #: addons/members-woocommerce-integration/src/functions-caps.php:225
 msgid "Coupons: Read Private"
-msgstr "Waardebon: Lees privé"
+msgstr "Waardebon: lees privé"
 
 #: addons/members-woocommerce-integration/src/functions-caps.php:221
 msgid "Allows users to publish coupons."
@@ -241,31 +326,31 @@ msgstr "Geeft gebruikers toegang tot waardebon publiceren."
 
 #: addons/members-woocommerce-integration/src/functions-caps.php:220
 msgid "Coupons: Publish"
-msgstr "Waardebon: Publiceren"
+msgstr "Waardebon: publiceren"
 
 #: addons/members-woocommerce-integration/src/functions-caps.php:216
 msgid "Allows users to edit published coupons."
-msgstr "Geeft gebruikers toegang tot het bewerken van gepubliceerde coupons."
+msgstr "Geeft gebruikers toegang tot het bewerken van gepubliceerde waardebon."
 
 #: addons/members-woocommerce-integration/src/functions-caps.php:215
 msgid "Coupons: Edit Published"
-msgstr "Waardebon: Bewerken gepubliceerd"
+msgstr "Waardebon: bewerken gepubliceerd"
 
 #: addons/members-woocommerce-integration/src/functions-caps.php:211
 msgid "Allows users to edit private coupons."
-msgstr "Geeft gebruikers toegang tot het bewerken van privé coupons."
+msgstr "Geeft gebruikers toegang tot het bewerken van privé waardebon."
 
 #: addons/members-woocommerce-integration/src/functions-caps.php:210
 msgid "Coupons: Edit Private"
-msgstr "Waardebon: Privé bewerken"
+msgstr "Waardebon: privé bewerken"
 
 #: addons/members-woocommerce-integration/src/functions-caps.php:206
 msgid "Allows users to edit other user's coupons."
-msgstr "Geeft gebruikers toegang tot het bewerken van coupons van andere gebruikers."
+msgstr "Geeft gebruikers toegang tot het bewerken van waardebon van andere gebruikers."
 
 #: addons/members-woocommerce-integration/src/functions-caps.php:205
 msgid "Coupons: Edit Others'"
-msgstr "Waardebon: Bewerk anderen"
+msgstr "Waardebon: bewerk anderen"
 
 #: addons/members-woocommerce-integration/src/functions-caps.php:199
 msgid "Allows users to edit coupons. May need to be combined with other %s capabilities, depending on the scenario."
@@ -273,15 +358,15 @@ msgstr "Geeft gebruikers toegang tot het bewerken van coupons. Mogelijk moet het
 
 #: addons/members-woocommerce-integration/src/functions-caps.php:197
 msgid "Coupons: Edit"
-msgstr "Waardebon: Bewerken"
+msgstr "Waardebon: bewerken"
 
 #: addons/members-woocommerce-integration/src/functions-caps.php:192
 msgid "Allows access to order taxonomy management screens."
-msgstr "Geeft toegang tot order taxonomie beheerschermen."
+msgstr "Geeft toegang tot bestelling taxonomie beheerschermen."
 
 #: addons/members-woocommerce-integration/src/functions-caps.php:191
 msgid "Orders: Manage Taxonomy Terms"
-msgstr "Bestellingen: Taxonomie voorwaarden beheren"
+msgstr "Bestellingen: taxonomie voorwaarden beheren"
 
 #: addons/members-woocommerce-integration/src/functions-caps.php:187
 msgid "Allows users to delete order taxonomy terms."
@@ -289,7 +374,7 @@ msgstr "Geeft gebruikers toegang tot het verwijderen van taxonomie voorwaarden."
 
 #: addons/members-woocommerce-integration/src/functions-caps.php:186
 msgid "Orders: Delete Taxonomy Terms"
-msgstr "Bestellingen: Taxonomie voorwaarden verwijderen"
+msgstr "Bestellingen: taxonomie voorwaarden verwijderen"
 
 #: addons/members-woocommerce-integration/src/functions-caps.php:182
 msgid "Allows users to edit order taxonomy terms."
@@ -297,7 +382,7 @@ msgstr "Geeft gebruikers toegang tot het bewerken van de voorwaarden voor order 
 
 #: addons/members-woocommerce-integration/src/functions-caps.php:181
 msgid "Orders: Edit Taxonomy Terms"
-msgstr "Bestellingen: Taxonomie voorwaarden bewerken"
+msgstr "Bestellingen: taxonomie voorwaarden bewerken"
 
 #: addons/members-woocommerce-integration/src/functions-caps.php:177
 msgid "Allows users to assign taxonomy terms to orders."
@@ -305,7 +390,7 @@ msgstr "Geeft gebruikers toegang tot het toewijzen van taxonomie voorwaarden aan
 
 #: addons/members-woocommerce-integration/src/functions-caps.php:176
 msgid "Orders: Assign Taxonomy Terms"
-msgstr "Bestellingen: Taxonomie voorwaarden toewijzen"
+msgstr "Bestellingen: taxonomie voorwaarden toewijzen"
 
 #: addons/members-woocommerce-integration/src/functions-caps.php:171
 msgid "Allows users to delete published orders."
@@ -313,7 +398,7 @@ msgstr "Geeft gebruikers toegang tot het verwijderen van gepubliceerde bestellin
 
 #: addons/members-woocommerce-integration/src/functions-caps.php:170
 msgid "Orders: Delete Published"
-msgstr "Bestellingen: Gepubliceerd verwijderen"
+msgstr "Bestellingen: gepubliceerd verwijderen"
 
 #: addons/members-woocommerce-integration/src/functions-caps.php:166
 msgid "Allows users to delete other users' orders."
@@ -321,7 +406,7 @@ msgstr "Geeft gebruikers toegang tot het verwijderen van bestellingen van andere
 
 #: addons/members-woocommerce-integration/src/functions-caps.php:165
 msgid "Orders: Delete Others'"
-msgstr "Bestellingen: Verwijder anderen'"
+msgstr "Bestellingen: verwijder anderen"
 
 #: addons/members-woocommerce-integration/src/functions-caps.php:161
 msgid "Allows users to delete private orders."
@@ -329,7 +414,7 @@ msgstr "Geeft gebruikers toegang tot het verwijderen van privé bestellingen."
 
 #: addons/members-woocommerce-integration/src/functions-caps.php:160
 msgid "Orders: Delete Private"
-msgstr "Bestellingen: Privé verwijderen"
+msgstr "Bestellingen: privé verwijderen"
 
 #: addons/members-woocommerce-integration/src/functions-caps.php:154
 msgid "Allows users to delete orders. May need to be combined with other %s capabilities, depending on the scenario."
@@ -337,7 +422,7 @@ msgstr "Geeft gebruikers toegang tot het verwijderen van bestellingen. Mogelijk 
 
 #: addons/members-woocommerce-integration/src/functions-caps.php:152
 msgid "Orders: Delete"
-msgstr "Bestellingen: Verwijderen"
+msgstr "Bestellingen: verwijderen"
 
 #: addons/members-woocommerce-integration/src/functions-caps.php:148
 msgid "Allows users to read private orders."
@@ -345,7 +430,7 @@ msgstr "Geeft gebruikers toegang tot privé bestellingen lezen."
 
 #: addons/members-woocommerce-integration/src/functions-caps.php:147
 msgid "Orders: Read Private"
-msgstr "Bestellingen: Lees Privé"
+msgstr "Bestellingen: lees privé"
 
 #: addons/members-woocommerce-integration/src/functions-caps.php:143
 msgid "Allows users to publish orders."
@@ -361,7 +446,7 @@ msgstr "Geeft gebruikers toegang tot het bewerken van gepubliceerde orders."
 
 #: addons/members-woocommerce-integration/src/functions-caps.php:137
 msgid "Orders: Edit Published"
-msgstr "Bestellingen: Gepubliceerd bewerken"
+msgstr "Bestellingen: gepubliceerd bewerken"
 
 #: addons/members-woocommerce-integration/src/functions-caps.php:133
 msgid "Allows users to edit private orders."
@@ -369,7 +454,7 @@ msgstr "Geeft gebruikers toegang tot het bewerken van privé bestellingen."
 
 #: addons/members-woocommerce-integration/src/functions-caps.php:132
 msgid "Orders: Edit Private"
-msgstr "Bestellingen: Privé bewerken"
+msgstr "Bestellingen: privé bewerken"
 
 #: addons/members-woocommerce-integration/src/functions-caps.php:128
 msgid "Allows users to edit other user's orders."
@@ -377,7 +462,7 @@ msgstr "Geeft gebruikers toegang tot het bewerken van bestellingen van andere ge
 
 #: addons/members-woocommerce-integration/src/functions-caps.php:127
 msgid "Orders: Edit Others'"
-msgstr "Bestellingen: Bewerk anderen"
+msgstr "Bestellingen: bewerk anderen"
 
 #: addons/members-woocommerce-integration/src/functions-caps.php:121
 msgid "Allows users to edit orders. May need to be combined with other %s capabilities, depending on the scenario."
@@ -393,7 +478,7 @@ msgstr "Geeft toegang tot product taxonomie management schermen."
 
 #: addons/members-woocommerce-integration/src/functions-caps.php:113
 msgid "Products: Manage Taxonomy Terms"
-msgstr "Producten: Taxonomie voorwaarden beheren"
+msgstr "Producten: taxonomie voorwaarden beheren"
 
 #: addons/members-woocommerce-integration/src/functions-caps.php:109
 msgid "Allows users to delete product taxonomy terms."
@@ -401,7 +486,7 @@ msgstr "Geeft gebruikers toegang tot het verwijderen van product taxonomie voorw
 
 #: addons/members-woocommerce-integration/src/functions-caps.php:108
 msgid "Products: Delete Taxonomy Terms"
-msgstr "Producten: Taxonomie voorwaarden verwijderen"
+msgstr "Producten: taxonomie voorwaarden verwijderen"
 
 #: addons/members-woocommerce-integration/src/functions-caps.php:104
 msgid "Allows users to edit product taxonomy terms."
@@ -409,7 +494,7 @@ msgstr "Geeft gebruikers toegang tot het bewerken van product taxonomie voorwaar
 
 #: addons/members-woocommerce-integration/src/functions-caps.php:103
 msgid "Products: Edit Taxonomy Terms"
-msgstr "Producten: Taxonomie voorwaarden bewerken"
+msgstr "Producten: taxonomie voorwaarden bewerken"
 
 #: addons/members-woocommerce-integration/src/functions-caps.php:99
 msgid "Allows users to assign taxonomy terms to products."
@@ -417,7 +502,7 @@ msgstr "Geeft gebruikers toegang tot het toewijzen van taxonomie voorwaarden aan
 
 #: addons/members-woocommerce-integration/src/functions-caps.php:98
 msgid "Products: Assign Taxonomy Terms"
-msgstr "Producten: Voorwaarden voor taxonomie toewijzen"
+msgstr "Producten: voorwaarden voor taxonomie toewijzen"
 
 #: addons/members-woocommerce-integration/src/functions-caps.php:93
 msgid "Allows users to delete published products."
@@ -425,7 +510,7 @@ msgstr "Geeft gebruikers toegang tot het verwijderen van gepubliceerde producten
 
 #: addons/members-woocommerce-integration/src/functions-caps.php:92
 msgid "Products: Delete Published"
-msgstr "Producten: Gepubliceerd verwijderen"
+msgstr "Producten: gepubliceerd verwijderen"
 
 #: addons/members-woocommerce-integration/src/functions-caps.php:88
 msgid "Allows users to delete other users' products."
@@ -433,7 +518,7 @@ msgstr "Geeft gebruikers toegang tot het verwijderen van producten van andere ge
 
 #: addons/members-woocommerce-integration/src/functions-caps.php:87
 msgid "Products: Delete Others'"
-msgstr "Producten: Verwijder anderen'"
+msgstr "Producten: verwijder anderen"
 
 #: addons/members-woocommerce-integration/src/functions-caps.php:83
 msgid "Allows users to delete private products."
@@ -441,7 +526,7 @@ msgstr "Geeft gebruikers toegang tot het verwijderen van privé producten."
 
 #: addons/members-woocommerce-integration/src/functions-caps.php:82
 msgid "Products: Delete Private"
-msgstr "Producten: Privé verwijderen"
+msgstr "Producten: privé verwijderen"
 
 #: addons/members-woocommerce-integration/src/functions-caps.php:76
 msgid "Allows users to delete products. May need to be combined with other %s capabilities, depending on the scenario."
@@ -449,7 +534,7 @@ msgstr "Geeft gebruikers toegang tot het verwijderen van producten. Mogelijk moe
 
 #: addons/members-woocommerce-integration/src/functions-caps.php:74
 msgid "Products: Delete"
-msgstr "Producten: Verwijderen"
+msgstr "Producten: verwijderen"
 
 #: addons/members-woocommerce-integration/src/functions-caps.php:70
 msgid "Allows users to read private products."
@@ -457,7 +542,7 @@ msgstr "Geeft gebruikers toegang tot privé producten lezen."
 
 #: addons/members-woocommerce-integration/src/functions-caps.php:69
 msgid "Products: Read Private"
-msgstr "Producten: Lees privé"
+msgstr "Producten: lees privé"
 
 #: addons/members-woocommerce-integration/src/functions-caps.php:65
 msgid "Allows users to publish products."
@@ -465,7 +550,7 @@ msgstr "Geeft gebruikers toegang tot producten publiceren."
 
 #: addons/members-woocommerce-integration/src/functions-caps.php:64
 msgid "Products: Publish"
-msgstr "Producten: Publiceren"
+msgstr "Producten: publiceren"
 
 #: addons/members-woocommerce-integration/src/functions-caps.php:60
 msgid "Allows users to edit published products."
@@ -473,7 +558,7 @@ msgstr "Geeft gebruikers toegang tot het bewerken van gepubliceerde producten."
 
 #: addons/members-woocommerce-integration/src/functions-caps.php:59
 msgid "Products: Edit Published"
-msgstr "Producten: Gepubliceerd bewerken"
+msgstr "Producten: gepubliceerd bewerken"
 
 #: addons/members-woocommerce-integration/src/functions-caps.php:55
 msgid "Allows users to edit private products."
@@ -481,7 +566,7 @@ msgstr "Geeft gebruikers toegang tot het bewerken van privé producten."
 
 #: addons/members-woocommerce-integration/src/functions-caps.php:54
 msgid "Products: Edit Private"
-msgstr "Producten: Privé bewerken"
+msgstr "Producten: privé bewerken"
 
 #: addons/members-woocommerce-integration/src/functions-caps.php:50
 msgid "Allows users to edit other user's products."
@@ -489,7 +574,7 @@ msgstr "Geeft gebruikers toegang tot het bewerken van producten van andere gebru
 
 #: addons/members-woocommerce-integration/src/functions-caps.php:49
 msgid "Products: Edit Others'"
-msgstr "Producten: Bewerk anderen"
+msgstr "Producten: bewerk anderen"
 
 #: addons/members-woocommerce-integration/src/functions-caps.php:43
 msgid "Allows users to edit products. May need to be combined with other %s capabilities, depending on the scenario."
@@ -527,7 +612,7 @@ msgstr "Geeft toegang tot korting taxonomie beheerschermen."
 
 #: addons/members-edd-integration/src/functions-caps.php:336
 msgid "Discounts: Manage Taxonomy Terms"
-msgstr "Kortingen: Taxonomie voorwaarden beheren"
+msgstr "Kortingen: taxonomie voorwaarden beheren"
 
 #: addons/members-edd-integration/src/functions-caps.php:332
 msgid "Allows users to delete discount taxonomy terms."
@@ -535,7 +620,7 @@ msgstr "Geeft gebruikers toegang tot het verwijderen van korting taxonomie voorw
 
 #: addons/members-edd-integration/src/functions-caps.php:331
 msgid "Discounts: Delete Taxonomy Terms"
-msgstr "Kortingen: Taxonomie voorwaarden verwijderen"
+msgstr "Kortingen: taxonomie voorwaarden verwijderen"
 
 #: addons/members-edd-integration/src/functions-caps.php:327
 msgid "Allows users to edit discount taxonomy terms."
@@ -543,7 +628,7 @@ msgstr "Geeft gebruikers toegang tot het bewerken van korting taxonomievoorwaard
 
 #: addons/members-edd-integration/src/functions-caps.php:326
 msgid "Discounts: Edit Taxonomy Terms"
-msgstr "Kortingen: Taxonomie voorwaarden bewerken"
+msgstr "Kortingen: taxonomie voorwaarden bewerken"
 
 #: addons/members-edd-integration/src/functions-caps.php:322
 msgid "Allows users to assign taxonomy terms to discounts."
@@ -551,7 +636,7 @@ msgstr "Geeft gebruikers toegang tot het toewijzen van taxonomie voorwaarden aan
 
 #: addons/members-edd-integration/src/functions-caps.php:321
 msgid "Discounts: Assign Taxonomy Terms"
-msgstr "Kortingen: Taxonomie voorwaarden toewijzen"
+msgstr "Kortingen: taxonomie voorwaarden toewijzen"
 
 #: addons/members-edd-integration/src/functions-caps.php:316
 msgid "Allows users to delete published discounts."
@@ -559,7 +644,7 @@ msgstr "Geeft gebruikers toegang tot het verwijderen van gepubliceerde kortingen
 
 #: addons/members-edd-integration/src/functions-caps.php:315
 msgid "Discounts: Delete Published"
-msgstr "Kortingen: Gepubliceerd verwijderen"
+msgstr "Kortingen: gepubliceerd verwijderen"
 
 #: addons/members-edd-integration/src/functions-caps.php:311
 msgid "Allows users to delete other users' discounts."
@@ -567,7 +652,7 @@ msgstr "Geeft gebruikers toegang tot het verwijderen van kortingen van andere ge
 
 #: addons/members-edd-integration/src/functions-caps.php:310
 msgid "Discounts: Delete Others'"
-msgstr "Kortingen: Verwijder anderen'"
+msgstr "Kortingen: verwijder anderen"
 
 #: addons/members-edd-integration/src/functions-caps.php:306
 msgid "Allows users to delete private discounts."
@@ -575,7 +660,7 @@ msgstr "Geeft gebruikers toegang tot het verwijderen van privé kortingen."
 
 #: addons/members-edd-integration/src/functions-caps.php:305
 msgid "Discounts: Delete Private"
-msgstr "Kortingen: Privé verwijderen"
+msgstr "Kortingen: privé verwijderen"
 
 #: addons/members-edd-integration/src/functions-caps.php:299
 msgid "Allows users to delete discounts. May need to be combined with other %s capabilities, depending on the scenario."
@@ -583,7 +668,7 @@ msgstr "Geeft gebruikers toegang tot het verwijderen van kortingen. Mogelijk moe
 
 #: addons/members-edd-integration/src/functions-caps.php:297
 msgid "Discounts: Delete"
-msgstr "Kortingen: Verwijderen"
+msgstr "Kortingen: verwijderen"
 
 #: addons/members-edd-integration/src/functions-caps.php:293
 msgid "Allows users to read private discounts."
@@ -591,7 +676,7 @@ msgstr "Geeft gebruikers toegang tot privé kortingen lezen."
 
 #: addons/members-edd-integration/src/functions-caps.php:292
 msgid "Discounts: Read Private"
-msgstr "Kortingen: Lees privé"
+msgstr "Kortingen: lees privé"
 
 #: addons/members-edd-integration/src/functions-caps.php:288
 msgid "Allows users to publish discounts."
@@ -599,7 +684,7 @@ msgstr "Geeft gebruikers toegang tot kortingen publiceren."
 
 #: addons/members-edd-integration/src/functions-caps.php:287
 msgid "Discounts: Publish"
-msgstr "Kortingen: Publiceren"
+msgstr "Kortingen: publiceren"
 
 #: addons/members-edd-integration/src/functions-caps.php:283
 msgid "Allows users to edit published discounts."
@@ -607,7 +692,7 @@ msgstr "Geeft gebruikers toegang tot het bewerken van gepubliceerde kortingen."
 
 #: addons/members-edd-integration/src/functions-caps.php:282
 msgid "Discounts: Edit Published"
-msgstr "Kortingen: Gepubliceerd bewerken"
+msgstr "Kortingen: gepubliceerd bewerken"
 
 #: addons/members-edd-integration/src/functions-caps.php:278
 msgid "Allows users to edit private discounts."
@@ -615,7 +700,7 @@ msgstr "Geeft gebruikers toegang tot het bewerken van privé kortingen."
 
 #: addons/members-edd-integration/src/functions-caps.php:277
 msgid "Discounts: Edit Private"
-msgstr "Kortingen: Privé bewerken"
+msgstr "Kortingen: privé bewerken"
 
 #: addons/members-edd-integration/src/functions-caps.php:273
 msgid "Allows users to edit other user's discounts."
@@ -623,7 +708,7 @@ msgstr "Geeft gebruikers toegang tot het bewerken van kortingen van andere gebru
 
 #: addons/members-edd-integration/src/functions-caps.php:272
 msgid "Discounts: Edit Others'"
-msgstr "Kortingen: Bewerk anderen"
+msgstr "Kortingen: bewerk anderen"
 
 #: addons/members-edd-integration/src/functions-caps.php:266
 msgid "Allows users to edit discounts. May need to be combined with other %s capabilities, depending on the scenario."
@@ -631,7 +716,7 @@ msgstr "Geeft gebruikers toegang tot het bewerken van kortingen. Mogelijk moet h
 
 #: addons/members-edd-integration/src/functions-caps.php:264
 msgid "Discounts: Edit"
-msgstr "Kortingen: Bewerken"
+msgstr "Kortingen: bewerken"
 
 #: addons/members-edd-integration/src/functions-caps.php:259
 msgid "Allows users to import discounts into the database."
@@ -639,7 +724,7 @@ msgstr "Geeft gebruikers toegang tot het importeren van kortingen in de gegevens
 
 #: addons/members-edd-integration/src/functions-caps.php:258
 msgid "Discounts: Import"
-msgstr "Kortingen: Importeren"
+msgstr "Kortingen: importeren"
 
 #: addons/members-edd-integration/src/functions-caps.php:254
 msgid "Allows users to view discount stats."
@@ -647,7 +732,7 @@ msgstr "Geeft gebruikers toegang tot korting statistieken bekijken."
 
 #: addons/members-edd-integration/src/functions-caps.php:253
 msgid "Discounts: View Stats"
-msgstr "Kortingen: Statistieken bekijken"
+msgstr "Kortingen: statistieken bekijken"
 
 #: addons/members-edd-integration/src/functions-caps.php:249
 msgid "Allows users to manage shop discounts."
@@ -655,7 +740,7 @@ msgstr "Geeft gebruikers toegang tot het beheer van winkelkortingen."
 
 #: addons/members-edd-integration/src/functions-caps.php:248
 msgid "Discounts: Manage"
-msgstr "Kortingen: Beheren"
+msgstr "Kortingen: beheren"
 
 #: addons/members-edd-integration/src/functions-caps.php:239
 msgid "Allows access to payment taxonomy management screens."
@@ -663,7 +748,7 @@ msgstr "Geeft toegang tot betaling taxonomie beheerschermen."
 
 #: addons/members-edd-integration/src/functions-caps.php:238
 msgid "Payments: Manage Taxonomy Terms"
-msgstr "Betalingen: Taxonomie voorwaarden beheren"
+msgstr "Betalingen: taxonomie voorwaarden beheren"
 
 #: addons/members-edd-integration/src/functions-caps.php:234
 msgid "Allows users to delete payment taxonomy terms."
@@ -671,7 +756,7 @@ msgstr "Geeft gebruikers toegang tot het verwijderen van betaling taxonomie voor
 
 #: addons/members-edd-integration/src/functions-caps.php:233
 msgid "Payments: Delete Taxonomy Terms"
-msgstr "Betalingen: Taxonomie voorwaarden verwijderen"
+msgstr "Betalingen: taxonomie voorwaarden verwijderen"
 
 #: addons/members-edd-integration/src/functions-caps.php:229
 msgid "Allows users to edit payment taxonomy terms."
@@ -679,7 +764,7 @@ msgstr "Geeft gebruikers toegang tot het bewerken van betaling taxonomie voorwaa
 
 #: addons/members-edd-integration/src/functions-caps.php:228
 msgid "Payments: Edit Taxonomy Terms"
-msgstr "Betalingen: Taxonomie voorwaarden bewerken"
+msgstr "Betalingen: taxonomie voorwaarden bewerken"
 
 #: addons/members-edd-integration/src/functions-caps.php:224
 msgid "Allows users to assign taxonomy terms to payments."
@@ -687,7 +772,7 @@ msgstr "Geeft gebruikers toegang tot het toewijzen van taxonomie voorwaarden aan
 
 #: addons/members-edd-integration/src/functions-caps.php:223
 msgid "Payments: Assign Taxonomy Terms"
-msgstr "Betalingen: Taxonomie voorwaarden toewijzen"
+msgstr "Betalingen: taxonomie voorwaarden toewijzen"
 
 #: addons/members-edd-integration/src/functions-caps.php:218
 msgid "Allows users to delete published payments."
@@ -695,7 +780,7 @@ msgstr "Geeft gebruikers toegang tot het verwijderen van gepubliceerde betalinge
 
 #: addons/members-edd-integration/src/functions-caps.php:217
 msgid "Payments: Delete Published"
-msgstr "Betalingen: Gepubliceerd verwijderen"
+msgstr "Betalingen: gepubliceerd verwijderen"
 
 #: addons/members-edd-integration/src/functions-caps.php:213
 msgid "Allows users to delete other users' payments."
@@ -703,7 +788,7 @@ msgstr "Geeft gebruikers toegang tot het verwijderen van betalingen van andere g
 
 #: addons/members-edd-integration/src/functions-caps.php:212
 msgid "Payments: Delete Others'"
-msgstr "Betalingen: Anderen verwijderen"
+msgstr "Betalingen: anderen verwijderen"
 
 #: addons/members-edd-integration/src/functions-caps.php:208
 msgid "Allows users to delete private payments."
@@ -711,7 +796,7 @@ msgstr "Geeft gebruikers toegang tot het verwijderen van privé betalingen."
 
 #: addons/members-edd-integration/src/functions-caps.php:207
 msgid "Payments: Delete Private"
-msgstr "Betalingen: Privé verwijderen"
+msgstr "Betalingen: privé verwijderen"
 
 #: addons/members-edd-integration/src/functions-caps.php:201
 msgid "Allows users to delete payments. May need to be combined with other %s capabilities, depending on the scenario."
@@ -727,7 +812,7 @@ msgstr "Geeft gebruikers toegang tot privé betalingen lezen."
 
 #: addons/members-edd-integration/src/functions-caps.php:194
 msgid "Payments: Read Private"
-msgstr "Betalingen: Lees Privé"
+msgstr "Betalingen: lees privé"
 
 #: addons/members-edd-integration/src/functions-caps.php:190
 msgid "Allows users to publish payments."
@@ -735,7 +820,7 @@ msgstr "Geeft gebruikers toegang tot betalingen publiceren."
 
 #: addons/members-edd-integration/src/functions-caps.php:189
 msgid "Payments: Publish"
-msgstr "Betalingen: Publiceren"
+msgstr "Betalingen: publiceren"
 
 #: addons/members-edd-integration/src/functions-caps.php:185
 msgid "Allows users to edit published payments."
@@ -743,7 +828,7 @@ msgstr "Geeft gebruikers toegang tot het bewerken van gepubliceerde betalingen."
 
 #: addons/members-edd-integration/src/functions-caps.php:184
 msgid "Payments: Edit Published"
-msgstr "Betalingen: Gepubliceerd bewerken"
+msgstr "Betalingen: gepubliceerd bewerken"
 
 #: addons/members-edd-integration/src/functions-caps.php:180
 msgid "Allows users to edit private payments."
@@ -751,7 +836,7 @@ msgstr "Geeft gebruikers toegang tot het bewerken van privé betalingen."
 
 #: addons/members-edd-integration/src/functions-caps.php:179
 msgid "Payments: Edit Private"
-msgstr "Betalingen: Privé bewerken"
+msgstr "Betalingen: privé bewerken"
 
 #: addons/members-edd-integration/src/functions-caps.php:175
 msgid "Allows users to edit other user's payments."
@@ -759,7 +844,7 @@ msgstr "Geeft gebruikers toegang tot het bewerken van betalingen van andere gebr
 
 #: addons/members-edd-integration/src/functions-caps.php:174
 msgid "Payments: Edit Others'"
-msgstr "Betalingen: Bewerk anderen'"
+msgstr "Betalingen: bewerk anderen'"
 
 #: addons/members-edd-integration/src/functions-caps.php:168
 msgid "Allows users to edit payments. May need to be combined with other %s capabilities, depending on the scenario."
@@ -775,7 +860,7 @@ msgstr "Geeft gebruikers toegang tot betalingen importeren in de gegevensbase."
 
 #: addons/members-edd-integration/src/functions-caps.php:160
 msgid "Payments: Import"
-msgstr "Betalingen: Importeren"
+msgstr "Betalingen: importeren"
 
 #: addons/members-edd-integration/src/functions-caps.php:156
 msgid "Allows users to view payment stats."
@@ -783,7 +868,7 @@ msgstr "Geeft gebruikers toegang tot betalingsstatistieken bekijken."
 
 #: addons/members-edd-integration/src/functions-caps.php:155
 msgid "Payments: View Stats"
-msgstr "Betalingen: Statistieken bekijken"
+msgstr "Betalingen: statistieken bekijken"
 
 #: addons/members-edd-integration/src/functions-caps.php:146
 msgid "Allows access to download taxonomy management screens."
@@ -791,7 +876,7 @@ msgstr "Geeft toegang tot het downloaden van taxonomie beheerschermen."
 
 #: addons/members-edd-integration/src/functions-caps.php:145
 msgid "Downloads: Manage Taxonomy Terms"
-msgstr "Downloads: Voorwaarden voor taxonomie beheren"
+msgstr "Downloads: voorwaarden voor taxonomie beheren"
 
 #: addons/members-edd-integration/src/functions-caps.php:141
 msgid "Allows users to delete download taxonomy terms."
@@ -799,7 +884,7 @@ msgstr "Geeft gebruikers toegang tot het downloaden van taxonomie voorwaarden."
 
 #: addons/members-edd-integration/src/functions-caps.php:140
 msgid "Downloads: Delete Taxonomy Terms"
-msgstr "Downloads: Taxonomie voorwaarden verwijderen"
+msgstr "Downloads: taxonomie voorwaarden verwijderen"
 
 #: addons/members-edd-integration/src/functions-caps.php:136
 msgid "Allows users to edit download taxonomy terms."
@@ -807,7 +892,7 @@ msgstr "Geeft gebruikers toegang tot het bewerken van de voorwaarden voor downlo
 
 #: addons/members-edd-integration/src/functions-caps.php:135
 msgid "Downloads: Edit Taxonomy Terms"
-msgstr "Downloads: Taxonomie voorwaarden bewerken"
+msgstr "Downloads: taxonomie voorwaarden bewerken"
 
 #: addons/members-edd-integration/src/functions-caps.php:131
 msgid "Allows users to assign taxonomy terms to downloads."
@@ -815,7 +900,7 @@ msgstr "Geeft gebruikers toegang tot het toewijzen van taxonomie voorwaarden aan
 
 #: addons/members-edd-integration/src/functions-caps.php:130
 msgid "Downloads: Assign Taxonomy Terms"
-msgstr "Downloads: Voorwaarden voor taxonomie toewijzen"
+msgstr "Downloads: voorwaarden voor taxonomie toewijzen"
 
 #: addons/members-edd-integration/src/functions-caps.php:125
 msgid "Allows users to delete published downloads."
@@ -823,7 +908,7 @@ msgstr "Geeft gebruikers toegang tot het verwijderen van gepubliceerde downloads
 
 #: addons/members-edd-integration/src/functions-caps.php:124
 msgid "Downloads: Delete Published"
-msgstr "Downloads: Gepubliceerd verwijderen"
+msgstr "Downloads: gepubliceerd verwijderen"
 
 #: addons/members-edd-integration/src/functions-caps.php:120
 msgid "Allows users to delete other users' downloads."
@@ -831,7 +916,7 @@ msgstr "Geeft gebruikers toegang tot het verwijderen van downloads van andere ge
 
 #: addons/members-edd-integration/src/functions-caps.php:119
 msgid "Downloads: Delete Others'"
-msgstr "Downloads: Verwijder anderen'"
+msgstr "Downloads: verwijder anderen"
 
 #: addons/members-edd-integration/src/functions-caps.php:115
 msgid "Allows users to delete private downloads."
@@ -839,7 +924,7 @@ msgstr "Geeft gebruikers toegang tot het verwijderen van privé downloads."
 
 #: addons/members-edd-integration/src/functions-caps.php:114
 msgid "Downloads: Delete Private"
-msgstr "Downloads: Privé verwijderen"
+msgstr "Downloads: privé verwijderen"
 
 #: addons/members-edd-integration/src/functions-caps.php:108
 msgid "Allows users to delete downloads. May need to be combined with other %s capabilities, depending on the scenario."
@@ -847,7 +932,7 @@ msgstr "Geeft gebruikers toegang tot het verwijderen van downloads. Mogelijk moe
 
 #: addons/members-edd-integration/src/functions-caps.php:106
 msgid "Downloads: Delete"
-msgstr "Downloads: Verwijderen"
+msgstr "Downloads: verwijderen"
 
 #: addons/members-edd-integration/src/functions-caps.php:102
 msgid "Allows users to read private downloads."
@@ -855,7 +940,7 @@ msgstr "Geeft gebruikers toegang tot privé downloads lezen."
 
 #: addons/members-edd-integration/src/functions-caps.php:101
 msgid "Downloads: Read Private"
-msgstr "Downloads: Lees Privé"
+msgstr "Downloads: lees privé"
 
 #: addons/members-edd-integration/src/functions-caps.php:97
 msgid "Allows users to publish downloads."
@@ -863,7 +948,7 @@ msgstr "Geeft gebruikers toegang tot downloads publiceren."
 
 #: addons/members-edd-integration/src/functions-caps.php:96
 msgid "Downloads: Publish"
-msgstr "Downloads: Publiceren"
+msgstr "Downloads: publiceren"
 
 #: addons/members-edd-integration/src/functions-caps.php:92
 msgid "Allows users to edit published downloads."
@@ -871,7 +956,7 @@ msgstr "Geeft gebruikers toegang tot het bewerken van gepubliceerde downloads."
 
 #: addons/members-edd-integration/src/functions-caps.php:91
 msgid "Downloads: Edit Published"
-msgstr "Downloads: Gepubliceerd bewerken"
+msgstr "Downloads: gepubliceerd bewerken"
 
 #: addons/members-edd-integration/src/functions-caps.php:87
 msgid "Allows users to edit private downloads."
@@ -879,7 +964,7 @@ msgstr "Geeft gebruikers toegang tot het bewerken van privé downloads."
 
 #: addons/members-edd-integration/src/functions-caps.php:86
 msgid "Downloads: Edit Private"
-msgstr "Downloads: Privé bewerken"
+msgstr "Downloads: privé bewerken"
 
 #: addons/members-edd-integration/src/functions-caps.php:82
 msgid "Allows users to edit other user's downloads."
@@ -887,7 +972,7 @@ msgstr "Geeft gebruikers toegang tot het bewerken van downloads van andere gebru
 
 #: addons/members-edd-integration/src/functions-caps.php:81
 msgid "Downloads: Edit Others'"
-msgstr "Downloads: Bewerk anderen'"
+msgstr "Downloads: bewerk anderen"
 
 #: addons/members-edd-integration/src/functions-caps.php:75
 msgid "Allows users to edit downloads. May need to be combined with other %s capabilities, depending on the scenario."
@@ -895,7 +980,7 @@ msgstr "Geeft gebruikers toegang tot het bewerken van downloads. Mogelijk moet h
 
 #: addons/members-edd-integration/src/functions-caps.php:73
 msgid "Downloads: Edit"
-msgstr "Downloads: Bewerken"
+msgstr "Downloads: bewerken"
 
 #: addons/members-edd-integration/src/functions-caps.php:68
 msgid "Allows users to import downloads into the database."
@@ -903,7 +988,7 @@ msgstr "Geeft gebruikers toegang tot downloads importeren in de gegevensbase."
 
 #: addons/members-edd-integration/src/functions-caps.php:67
 msgid "Downloads: Import"
-msgstr "Downloads: Importeren"
+msgstr "Downloads: importeren"
 
 #: addons/members-edd-integration/src/functions-caps.php:63
 msgid "Allows users to view download stats."
@@ -911,7 +996,7 @@ msgstr "Geeft gebruikers toegang tot downloadstatistieken bekijken."
 
 #: addons/members-edd-integration/src/functions-caps.php:62
 msgid "Downloads: View Stats"
-msgstr "Downloads: Statistieken bekijken"
+msgstr "Downloads: statistieken bekijken"
 
 #: addons/members-edd-integration/src/functions-caps.php:53
 msgid "Allows users to export shop reports data."
@@ -935,7 +1020,7 @@ msgstr "Geeft toegang tot het beheer van winkelinstellingen."
 
 #: addons/members-edd-integration/src/functions-caps.php:33
 msgid "Shop: Manage Settings"
-msgstr "Winkel: Instellingen beheren"
+msgstr "Winkel: instellingen beheren"
 
 #: addons/members-acf-integration/src/Plugin.php:365
 msgid "Custom Fields"
@@ -944,12 +1029,12 @@ msgstr "Aangepaste velden"
 #: addons/members-acf-integration/src/Plugin.php:334
 msgid "Advanced Custom Fields %s"
 msgid_plural "Advanced Custom Fields %s"
-msgstr[0] "Advanced Custom Fields %s"
-msgstr[1] "Advanced Custom Fields %s"
+msgstr[0] "Geavanceerde aangepaste velden %s"
+msgstr[1] "Geavanceerde aangepaste velden %s"
 
 #: addons/members-acf-integration/src/Plugin.php:333
 msgid "Advanced Custom Fields"
-msgstr "Advanced Custom Fields"
+msgstr "Geavanceerde aangepaste velden"
 
 #: addons/members-acf-integration/src/functions-caps.php:57
 msgid "Allows users to delete other user's field groups."
@@ -969,7 +1054,7 @@ msgstr "Veldgroepen van anderen bewerken"
 
 #: addons/members-acf-integration/src/functions-caps.php:29
 msgid "Allows access to settings and tools for the Advanced Custom Fields plugin and may be required to access some third-party add-ons."
-msgstr "Geeft toegang tot instellingen en hulpprogramma's voor de plugin Advanced Custom Fieldsplugin en is mogelijk vereist om toegang te krijgen tot een aantal invoegtoepassingen van derden."
+msgstr "Geeft toegang tot instellingen en tools voor de Advanced Custom Fields plugin en is mogelijk vereist om toegang te krijgen tot een aantal add-ons van derden."
 
 #: addons/members-acf-integration/src/functions-caps.php:28
 msgid "Manage Advanced Custom Fields"
@@ -1039,15 +1124,14 @@ msgstr "Niveau 0"
 #: addons/members-meta-box-integration/src/Plugin.php:122
 msgid "Meta Box %s"
 msgid_plural "MetaBox %s"
-msgstr[0] "Meta Box %s"
-msgstr[1] "MetaBoxen %s"
+msgstr[0] "Metabox %s"
+msgstr[1] "Metabox %s"
 
 #: addons/members-meta-box-integration/src/Plugin.php:121
 #: addons/members-meta-box-integration/src/Plugin.php:146
 msgid "Meta Box"
-msgstr "Meta Box"
+msgstr "Metabox"
 
-#. Translators: %s is a capability name.
 #. Translators: %s is a capability name.
 #: addons/members-acf-integration/src/functions-caps.php:50
 #: addons/members-meta-box-integration/src/functions-caps.php:45
@@ -1059,7 +1143,6 @@ msgstr "Geeft gebruikers toegang tot het verwijderen van veldgroepen. Mogelijk m
 msgid "Delete Field Groups"
 msgstr "Veldgroepen verwijderen"
 
-#. Translators: %s is a capability name.
 #. Translators: %s is a capability name.
 #: addons/members-acf-integration/src/functions-caps.php:36
 #: addons/members-meta-box-integration/src/functions-caps.php:36
@@ -1081,7 +1164,7 @@ msgstr "Veldgroepen maken"
 
 #: addons/members-block-permissions/src/Integration.php:50
 msgid "Allows users to assign block permissions inside of the block editor."
-msgstr "Geeft gebruikers toegang om machtigingen te blokkeren in de blokeditor."
+msgstr "Geeft gebruikers toegang om rechten te blokkeren in de blok-editor."
 
 #: addons/members-block-permissions/src/Integration.php:49
 msgid "Assign Block Permissions"
@@ -1157,7 +1240,7 @@ msgstr "Geeft toegang tot taxonomie beheerschermen."
 
 #: addons/members-givewp-integration/src/functions-caps.php:226
 msgid "Donations: Manage Taxonomy Terms"
-msgstr "Donaties: Taxonomie voorwaarden beheren"
+msgstr "Donaties: taxonomie voorwaarden beheren"
 
 #: addons/members-givewp-integration/src/functions-caps.php:222
 msgid "Allows users to delete donation taxonomy terms."
@@ -1165,7 +1248,7 @@ msgstr "Geeft gebruikers toegang tot het verwijderen van donatie taxonomie voorw
 
 #: addons/members-givewp-integration/src/functions-caps.php:221
 msgid "Donations: Delete Taxonomy Terms"
-msgstr "Donaties: Taxonomie voorwaarden verwijderen"
+msgstr "Donaties: taxonomie voorwaarden verwijderen"
 
 #: addons/members-givewp-integration/src/functions-caps.php:217
 msgid "Allows users to edit donation taxonomy terms."
@@ -1173,7 +1256,7 @@ msgstr "Geeft gebruikers toegang tot het bewerken van de voorwaarden voor donati
 
 #: addons/members-givewp-integration/src/functions-caps.php:216
 msgid "Donations: Edit Taxonomy Terms"
-msgstr "Donaties: Taxonomie voorwaarden bewerken"
+msgstr "Donaties: taxonomie voorwaarden bewerken"
 
 #: addons/members-givewp-integration/src/functions-caps.php:212
 msgid "Allows users to assign taxonomy terms to donations."
@@ -1181,7 +1264,7 @@ msgstr "Geeft gebruikers toegang tot het toewijzen van taxonomie voorwaarden aan
 
 #: addons/members-givewp-integration/src/functions-caps.php:211
 msgid "Donations: Assign Taxonomy Terms"
-msgstr "Donaties: Taxonomie voorwaarden toewijzen"
+msgstr "Donaties: taxonomie voorwaarden toewijzen"
 
 #: addons/members-givewp-integration/src/functions-caps.php:206
 msgid "Allows users to view donation stats."
@@ -1189,7 +1272,7 @@ msgstr "Geeft gebruikers toegang tot donatie statistieken bekijken."
 
 #: addons/members-givewp-integration/src/functions-caps.php:205
 msgid "Donations: View Stats"
-msgstr "Donaties: Statistieken bekijken"
+msgstr "Donaties: statistieken bekijken"
 
 #: addons/members-givewp-integration/src/functions-caps.php:201
 msgid "Allows users to view donations."
@@ -1197,7 +1280,7 @@ msgstr "Geeft gebruikers toegang tot donaties bekijken."
 
 #: addons/members-givewp-integration/src/functions-caps.php:200
 msgid "Donations: View"
-msgstr "Donaties: Bekijk"
+msgstr "Donaties: bekijk"
 
 #: addons/members-givewp-integration/src/functions-caps.php:196
 msgid "Allows users to import donations."
@@ -1205,7 +1288,7 @@ msgstr "Geeft gebruikers toegang tot importeren van donaties."
 
 #: addons/members-givewp-integration/src/functions-caps.php:195
 msgid "Donations: Import"
-msgstr "Donaties: Importeren"
+msgstr "Donaties: importeren"
 
 #: addons/members-givewp-integration/src/functions-caps.php:191
 msgid "Allows users to delete published donations."
@@ -1213,7 +1296,7 @@ msgstr "Geeft gebruikers toegang tot het verwijderen van gepubliceerde donaties.
 
 #: addons/members-givewp-integration/src/functions-caps.php:190
 msgid "Donations: Delete Published"
-msgstr "Donaties: Gepubliceerd verwijderen"
+msgstr "Donaties: gepubliceerd verwijderen"
 
 #: addons/members-givewp-integration/src/functions-caps.php:186
 msgid "Allows users to delete other users' donations."
@@ -1229,7 +1312,7 @@ msgstr "Geeft gebruikers toegang tot het verwijderen van privé donaties."
 
 #: addons/members-givewp-integration/src/functions-caps.php:180
 msgid "Donations: Delete Private"
-msgstr "Donaties: Privé verwijderen"
+msgstr "Donaties: privé verwijderen"
 
 #: addons/members-givewp-integration/src/functions-caps.php:174
 msgid "Allows users to delete donations. May need to be combined with other %s capabilities, depending on the scenario."
@@ -1237,7 +1320,7 @@ msgstr "Geeft gebruikers toegang tot het verwijderen van donaties. Mogelijk moet
 
 #: addons/members-givewp-integration/src/functions-caps.php:172
 msgid "Donations: Delete"
-msgstr "Donaties: Verwijderen"
+msgstr "Donaties: verwijderen"
 
 #: addons/members-givewp-integration/src/functions-caps.php:168
 msgid "Allows users to read private donations."
@@ -1245,7 +1328,7 @@ msgstr "Geeft gebruikers toegang tot privé donaties lezen."
 
 #: addons/members-givewp-integration/src/functions-caps.php:167
 msgid "Donations: Read Private"
-msgstr "Donaties: Lees Privé"
+msgstr "Donaties: lees privé"
 
 #: addons/members-givewp-integration/src/functions-caps.php:163
 msgid "Allows users to publish donations."
@@ -1253,7 +1336,7 @@ msgstr "Geeft gebruikers toegang tot donaties publiceren."
 
 #: addons/members-givewp-integration/src/functions-caps.php:162
 msgid "Donations: Publish"
-msgstr "Donaties: Publiceren"
+msgstr "Donaties: publiceren"
 
 #: addons/members-givewp-integration/src/functions-caps.php:158
 msgid "Allows users to edit published donations."
@@ -1261,7 +1344,7 @@ msgstr "Geeft gebruikers toegang tot het bewerken van gepubliceerde donaties."
 
 #: addons/members-givewp-integration/src/functions-caps.php:157
 msgid "Donations: Edit Published"
-msgstr "Donaties: Gepubliceerd bewerken"
+msgstr "Donaties: gepubliceerd bewerken"
 
 #: addons/members-givewp-integration/src/functions-caps.php:153
 msgid "Allows users to edit private donations."
@@ -1269,7 +1352,7 @@ msgstr "Geeft gebruikers toegang tot het bewerken van privé donaties."
 
 #: addons/members-givewp-integration/src/functions-caps.php:152
 msgid "Donations: Edit Private"
-msgstr "Donaties: Privé bewerken"
+msgstr "Donaties: privé bewerken"
 
 #: addons/members-givewp-integration/src/functions-caps.php:148
 msgid "Allows users to edit other user's donations."
@@ -1277,7 +1360,7 @@ msgstr "Geeft gebruikers toegang tot het bewerken van donaties van andere gebrui
 
 #: addons/members-givewp-integration/src/functions-caps.php:147
 msgid "Donations: Edit Others'"
-msgstr "Donaties: Bewerk anderen"
+msgstr "Donaties: bewerk anderen"
 
 #: addons/members-givewp-integration/src/functions-caps.php:141
 msgid "Allows users to edit donations. May need to be combined with other %s capabilities, depending on the scenario."
@@ -1285,7 +1368,7 @@ msgstr "Geeft gebruikers toegang tot het bewerken van donaties. Mogelijk moet he
 
 #: addons/members-givewp-integration/src/functions-caps.php:139
 msgid "Donations: Edit"
-msgstr "Donaties: Bewerken"
+msgstr "Donaties: bewerken"
 
 #: addons/members-givewp-integration/src/functions-caps.php:134
 msgid "Allows access to donation taxonomy management screens."
@@ -1293,7 +1376,7 @@ msgstr "Geeft toegang tot donatie taxonomie beheerschermen."
 
 #: addons/members-givewp-integration/src/functions-caps.php:133
 msgid "Forms: Manage Taxonomy Terms"
-msgstr "Formulieren: Taxonomie voorwaarden beheren"
+msgstr "Formulieren: taxonomie voorwaarden beheren"
 
 #: addons/members-givewp-integration/src/functions-caps.php:129
 msgid "Allows users to delete donation form taxonomy terms."
@@ -1309,7 +1392,7 @@ msgstr "Geeft gebruikers toegang tot het bewerken van taxonomie voorwaarden voor
 
 #: addons/members-givewp-integration/src/functions-caps.php:123
 msgid "Forms: Edit Taxonomy Terms"
-msgstr "Formulieren: Taxonomie voorwaarden bewerken"
+msgstr "Formulieren: taxonomie voorwaarden bewerken"
 
 #: addons/members-givewp-integration/src/functions-caps.php:119
 msgid "Allows users to assign taxonomy terms to donation forms."
@@ -1317,7 +1400,7 @@ msgstr "Geeft gebruikers toegang tot het toewijzen van taxonomie voorwaarden aan
 
 #: addons/members-givewp-integration/src/functions-caps.php:118
 msgid "Forms: Assign Taxonomy Terms"
-msgstr "Formulieren: Voorwaarden voor taxonomie toewijzen"
+msgstr "Formulieren: voorwaarden voor taxonomie toewijzen"
 
 #: addons/members-givewp-integration/src/functions-caps.php:113
 msgid "Allows users to view donation form stats."
@@ -1325,7 +1408,7 @@ msgstr "Geeft gebruikers toegang tot statistieken van donatieformulieren bekijke
 
 #: addons/members-givewp-integration/src/functions-caps.php:112
 msgid "Forms: View Stats"
-msgstr "Formulieren: Statistieken bekijken"
+msgstr "Formulieren: statistieken bekijken"
 
 #: addons/members-givewp-integration/src/functions-caps.php:108
 msgid "Allows users to import donation forms."
@@ -1333,7 +1416,7 @@ msgstr "Geeft gebruikers toegang tot het importeren van donatieformulieren."
 
 #: addons/members-givewp-integration/src/functions-caps.php:107
 msgid "Forms: Import"
-msgstr "Formulieren: Importeren"
+msgstr "Formulieren: importeren"
 
 #: addons/members-givewp-integration/src/functions-caps.php:103
 msgid "Allows users to delete published donation forms."
@@ -1341,7 +1424,7 @@ msgstr "Geeft gebruikers toegang tot het verwijderen van gepubliceerde donatiefo
 
 #: addons/members-givewp-integration/src/functions-caps.php:102
 msgid "Forms: Delete Published"
-msgstr "Formulieren: Gepubliceerd verwijderen"
+msgstr "Formulieren: gepubliceerd verwijderen"
 
 #: addons/members-givewp-integration/src/functions-caps.php:98
 msgid "Allows users to delete other users' donation forms."
@@ -1349,7 +1432,7 @@ msgstr "Geeft gebruikers toegang tot het verwijderen van donatieformulieren van 
 
 #: addons/members-givewp-integration/src/functions-caps.php:97
 msgid "Forms: Delete Others'"
-msgstr "Formulieren: Verwijderen van anderen'"
+msgstr "Formulieren: verwijderen van anderen"
 
 #: addons/members-givewp-integration/src/functions-caps.php:93
 msgid "Allows users to delete private donation forms."
@@ -1357,7 +1440,7 @@ msgstr "Geeft gebruikers toegang tot het verwijderen van privé donatieformulier
 
 #: addons/members-givewp-integration/src/functions-caps.php:92
 msgid "Forms: Delete Private"
-msgstr "Formulieren: Privé verwijderen"
+msgstr "Formulieren: privé verwijderen"
 
 #: addons/members-givewp-integration/src/functions-caps.php:86
 msgid "Allows users to delete donation forms. May need to be combined with other %s capabilities, depending on the scenario."
@@ -1373,7 +1456,7 @@ msgstr "Geeft gebruikers toegang tot privé donatieformulieren lezen."
 
 #: addons/members-givewp-integration/src/functions-caps.php:79
 msgid "Forms: Read Private"
-msgstr "Formulieren: Lees privé"
+msgstr "Formulieren: lees privé"
 
 #: addons/members-givewp-integration/src/functions-caps.php:75
 msgid "Allows users to publish donation forms."
@@ -1381,7 +1464,7 @@ msgstr "Geeft gebruikers toegang tot donatieformulieren publiceren."
 
 #: addons/members-givewp-integration/src/functions-caps.php:74
 msgid "Forms: Publish"
-msgstr "Formulieren: Publiceren"
+msgstr "Formulieren: publiceren"
 
 #: addons/members-givewp-integration/src/functions-caps.php:70
 msgid "Allows users to edit published donation forms."
@@ -1389,7 +1472,7 @@ msgstr "Geeft gebruikers toegang tot het bewerken van gepubliceerde donatieformu
 
 #: addons/members-givewp-integration/src/functions-caps.php:69
 msgid "Forms: Edit Published"
-msgstr "Formulieren: Gepubliceerd bewerken"
+msgstr "Formulieren: gepubliceerd bewerken"
 
 #: addons/members-givewp-integration/src/functions-caps.php:65
 msgid "Allows users to edit private donation forms."
@@ -1397,7 +1480,7 @@ msgstr "Geeft gebruikers toegang tot het bewerken van privé donatieformulieren.
 
 #: addons/members-givewp-integration/src/functions-caps.php:64
 msgid "Forms: Edit Private"
-msgstr "Formulieren: Privé bewerken"
+msgstr "Formulieren: privé bewerken"
 
 #: addons/members-givewp-integration/src/functions-caps.php:60
 msgid "Allows users to edit other user's donation forms."
@@ -1405,7 +1488,7 @@ msgstr "Geeft gebruikers toegang tot het bewerken van donatieformulieren van and
 
 #: addons/members-givewp-integration/src/functions-caps.php:59
 msgid "Forms: Edit Others'"
-msgstr "Formulieren: Bewerk anderen"
+msgstr "Formulieren: bewerk anderen"
 
 #: addons/members-givewp-integration/src/functions-caps.php:53
 msgid "Allows users to edit donation forms. May need to be combined with other %s capabilities, depending on the scenario."
@@ -1424,7 +1507,7 @@ msgstr "Geeft toegang tot rapporten."
 #: addons/members-givewp-integration/src/functions-caps.php:45
 #: addons/members-woocommerce-integration/src/functions-caps.php:35
 msgid "Reports: View"
-msgstr "Rapporten: Bekijken"
+msgstr "Rapporten: bekijken"
 
 #: addons/members-givewp-integration/src/functions-caps.php:41
 msgid "Allows access to export reports."
@@ -1433,7 +1516,7 @@ msgstr "Geeft toegang tot export rapporten."
 #: addons/members-edd-integration/src/functions-caps.php:52
 #: addons/members-givewp-integration/src/functions-caps.php:40
 msgid "Reports: Export"
-msgstr "Rapporten: Exporteren"
+msgstr "Rapporten: exporteren"
 
 #: addons/members-givewp-integration/src/functions-caps.php:35
 msgid "Allows access to view sensitive user data."
@@ -1441,7 +1524,7 @@ msgstr "Geeft toegang tot gevoelige gebruikersgegevens."
 
 #: addons/members-givewp-integration/src/functions-caps.php:34
 msgid "GiveWP: View Sensitive Data"
-msgstr "GiveWP: Gevoelige gegevens weergeven"
+msgstr "GiveWP: gevoelige gegevens weergeven"
 
 #: addons/members-givewp-integration/src/functions-caps.php:30
 msgid "Allows access to manage the GiveWP plugin settings."
@@ -1449,49 +1532,49 @@ msgstr "Geeft toegang om instellingen voor GiveWP plugin beheren."
 
 #: addons/members-givewp-integration/src/functions-caps.php:29
 msgid "GiveWP: Manage Settings"
-msgstr "GiveWP: Instellingen beheren"
+msgstr "GiveWP: instellingen beheren"
 
 #: addons/members-block-permissions/src/Editor.php:131
-#: addons/members-block-permissions/src/Editor.php:132 members.php:461
+#: addons/members-block-permissions/src/Editor.php:132 members.php:467
 msgid "To protect this block by paid membership or centrally with a content protection rule, add MemberPress."
 msgstr "Om deze blokkering te beschermen door middel van betaald lidmaatschap of centraal met een regel voor inhoudsbescherming, voeg MemberPress toe."
 
-#: addons/members-block-permissions/src/Editor.php:87 members.php:460
+#: addons/members-block-permissions/src/Editor.php:87 members.php:466
 msgid "Permissions"
 msgstr "Rechten"
 
-#: admin/class-settings.php:227 admin/class-settings.php:604
+#: admin/class-settings.php:231 admin/class-settings.php:609
 msgctxt "admin screen"
 msgid "About Us"
 msgstr "Over ons"
 
-#: admin/class-settings.php:225 admin/class-settings.php:348
+#: admin/class-settings.php:228 admin/class-settings.php:353
 msgctxt "admin screen"
 msgid "Payments"
 msgstr "Betalingen"
 
-#: admin/class-settings.php:223
+#: admin/class-settings.php:225
 msgctxt "admin screen"
 msgid "<span style=\"color: #8CBD5A;\">Add-Ons</span>"
 msgstr "<span style=\"color: #8CBD5A;\">Add-ons</span>"
 
-#: admin/class-settings.php:223
+#: admin/class-settings.php:225
 msgctxt "admin screen"
 msgid "Add-Ons"
 msgstr "Add-Ons"
 
-#: admin/class-settings.php:222
+#: admin/class-settings.php:223
 msgctxt "admin screen"
 msgid "Settings"
 msgstr "Instellingen"
 
 #: admin/class-settings.php:149
 msgid "Add-on deactivated"
-msgstr "Add-On gedeactiveerd."
+msgstr "Add-on gedeactiveerd"
 
 #: admin/class-settings.php:137
 msgid "Add-on activated"
-msgstr "Add-On geactiveerd."
+msgstr "Add-on geactiveerd"
 
 #: admin/class-settings.php:125
 msgid "No add-on provided."
@@ -1529,21 +1612,21 @@ msgid_plural "%s Users"
 msgstr[0] "%s Gebruiker"
 msgstr[1] "%s Gebruikers"
 
-#: members.php:345
+#: members.php:351
 msgid "Members requires PHP version %1$s. You are running version %2$s. Please upgrade and try again."
 msgstr "Members vereist PHP versie %1$s, maar je gebruikt versie %2$s; voer een upgrade uit en probeer het nog eens."
 
 #: inc/functions-private-site.php:198
 msgid "If you reached this page by accident and meant to visit one of your own sites, try one of the following links."
-msgstr "Als je per ongeluk op deze pagina terecht bent gekomen omdat je één van je eigen websites wilde bezoeken, probeer dan één van de volgende links. "
+msgstr "Als je per ongeluk op deze pagina terecht bent gekomen omdat je één van je eigen websites wilde bezoeken, probeer dan één van de volgende links."
 
 #: inc/functions-private-site.php:191
 msgid "You do not currently have access to the \"%s\" site. If you believe you should have access, please contact your network administrator."
-msgstr "Je hebt momenteel geen toegang tot de website \"%s\". Als je denkt dat dit niet klopt, kun je contact opnemen met je netwerkbeheerder. "
+msgstr "Je hebt momenteel geen toegang tot de website \"%s\". Als je denkt dat dit niet klopt, kun je contact opnemen met je netwerkbeheerder."
 
 #: inc/functions-private-site.php:167
 msgid "You are not currently logged in."
-msgstr "U bent momenteel niet ingelogd."
+msgstr "Je bent momenteel niet ingelogd."
 
 #: inc/functions-capabilities.php:147
 msgid "Manage Post Tags"
@@ -1571,7 +1654,7 @@ msgstr "Bewerk categorieën"
 
 #: inc/functions-capabilities.php:141
 msgid "Assign Categories"
-msgstr "Wijs categorieën toe"
+msgstr "Categorieën toewijzen"
 
 #: inc/functions-capabilities.php:126
 msgid "Restrict Content"
@@ -1619,7 +1702,7 @@ msgstr "Maak rollen aan"
 
 #: inc/functions-capabilities.php:111
 msgid "Update Plugins"
-msgstr "Update plugins"
+msgstr "Plugins bijwerken"
 
 #: inc/functions-capabilities.php:110
 msgid "Install Plugins"
@@ -1639,7 +1722,7 @@ msgstr "Activeer plugins"
 
 #: inc/functions-capabilities.php:104
 msgid "Update Themes"
-msgstr "Update thema's"
+msgstr "Thema's bijwerken"
 
 #: inc/functions-capabilities.php:103
 msgid "Switch Themes"
@@ -1889,11 +1972,11 @@ msgstr "Rol toegevoegd aan de geselecteerde gebruikers."
 
 #. Description of the plugin
 msgid "A user and role management plugin that puts you in full control of your site's permissions. This plugin allows you to edit your roles and their capabilities, clone existing roles, assign multiple roles per user, block post content, or even make your site completely private."
-msgstr "Een plugin voor gebruikers en rollen beheer waarmee je de machtigingen van jouw website volledig beheren. Deze plugin maakt het mogelijk je rollen en hun competenties te bewerken, kloon bestaande rollen, toewijzen van meerdere rollen per gebruiker, blok bericht inhoud, of maak zelfs je website volledig privé."
+msgstr "Een plugin voor gebruikers en rollen beheer waarmee je de machtigingen van jouw website volledig beheren. Deze plugin maakt het mogelijk je rollen en hun rechten te bewerken, kloon bestaande rollen, toewijzen van meerdere rollen per gebruiker, blok bericht inhoud, of maak zelfs je website volledig privé."
 
 #. Plugin Name of the plugin
 msgid "Members"
-msgstr "Leden"
+msgstr "Members"
 
 #: members.php:151
 msgid "Method does not exist."
@@ -1909,7 +1992,7 @@ msgstr "Helaas, je hebt niet het recht om deze inhoud te bekijken.."
 
 #: inc/class-widget-users.php:276
 msgid "Meta Value:"
-msgstr "Meta-waarde:"
+msgstr "Meta waarde:"
 
 #: inc/class-widget-users.php:268
 msgid "Meta Key:"
@@ -2095,7 +2178,7 @@ msgstr "Toestemming geven"
 #: addons/members-block-permissions/src/Editor.php:116
 #: admin/tmpl/cap-section.php:19 admin/tmpl/cap-section.php:27
 msgid "Capability"
-msgstr "Competentie"
+msgstr "Recht"
 
 #: inc/functions-role-groups.php:43
 msgid "WordPress %s"
@@ -2143,7 +2226,7 @@ msgstr "In het vak Aangepaste mogelijkheden kan je een aangepaste mogelijkheid v
 
 #: admin/functions-help.php:154
 msgid "You may also opt to neither grant nor deny the role a capability."
-msgstr "Je kunt er ook voor kiezen om de rol geen mogelijkheid toe te kennen of te weigeren."
+msgstr "Je kan er ook voor kiezen om de rol geen mogelijkheid toe te kennen of te weigeren."
 
 #: admin/functions-help.php:153
 msgid "<strong>Deny</strong> allows you to explicitly deny the role a capability."
@@ -2151,15 +2234,15 @@ msgstr "Met <strong>weigeren</strong> kan je expliciet de rol van een functie on
 
 #: admin/functions-help.php:152
 msgid "<strong>Grant</strong> allows you to grant the role a capability."
-msgstr "Met <strong>Toekennen</strong> kan je de rol een mogelijkheid geven."
+msgstr "Met <strong>toekennen</strong> kan je de rol een mogelijkheid geven."
 
 #: admin/functions-help.php:148
 msgid "The capabilities edit box is made up of tabs that separate capabilities into groups. You may take the following actions for each capability:"
-msgstr "De bewerking box voor competenties bestaat uit tabbladen die de competenties in groepen onderverdelen; voor elke competentie kunt je de volgende acties ondernemen:"
+msgstr "Het bewerkingsvak voor rechten bestaat uit tabbladen die de rechten in groepen onderverdelen; voor elke rechten kan je de volgende acties ondernemen:"
 
 #: admin/functions-help.php:134
 msgid "The machine-readable version of the role appears below the name field, which you can edit. This can only have lowercase letters, numbers, or underscores."
-msgstr "De machine-leesbare versie van de rol verschijnt onder het naamveld, dat je kunt bewerken; dit kan alleen kleine letters, cijfers of underscores bevatten."
+msgstr "De machine-leesbare versie van de rol verschijnt onder het naamveld, dat je kan bewerken. Dit kan alleen kleine letters, cijfers of underscores bevatten."
 
 #: admin/functions-help.php:130
 msgid "The role name field allows you to enter a human-readable name for your role."
@@ -2167,7 +2250,7 @@ msgstr "Het rol naam veld maakt het mogelijk dat je een door de mens leesbare na
 
 #: admin/functions-help.php:109
 msgid "This screen allows you to edit an individual role and its capabilities."
-msgstr "Dit scherm geeft je de mogelijkheid een individuele rol en zijn competenties te bewerken."
+msgstr "Dit scherm geeft je de mogelijkheid een individuele rol en zijn rechten te bewerken."
 
 #: admin/functions-help.php:78
 msgid "Edit Capabilities"
@@ -2228,7 +2311,7 @@ msgstr "De functie zijbalk widgets voegt extra widgets toe voor gebruik in je zi
 
 #: admin/views/class-view-general.php:412
 msgid "The content permissions features adds a meta box to the edit post screen that allows you to grant permissions for who can read the post content based on the user's role. Only users of roles with the %s capability will be able to use this component."
-msgstr "De functies voor inhoud machtigingen voegt een meta box toe aan het scherm bericht bewerken, waarmee je machtigingen toekennen voor wie de berichtinhoud kan lezen op basis van de rol van de gebruiker. Alleen gebruikers van rollen met de functie %s kunnen dit onderdeel gebruiken."
+msgstr "De functies voor inhoud machtigingen voegt een metabox toe aan het scherm bericht bewerken, waarmee je machtigingen toekennen voor wie de berichtinhoud kan lezen op basis van de rol van de gebruiker. Alleen gebruikers van rollen met de functie %s kunnen dit onderdeel gebruiken."
 
 #: admin/views/class-view-general.php:390
 msgid "The multiple user roles feature allows you to assign more than one role to each user from the edit user screen."
@@ -2240,7 +2323,7 @@ msgstr "Vink het selectievakje aan voor geweigerde mogelijkheden om altijd voorr
 
 #: admin/views/class-view-general.php:386
 msgid "The role manager allows you to manage roles on your site by giving you the ability to create, edit, and delete any role. Note that changes to roles do not change settings for the Members plugin. You are literally changing data in your WordPress database. This plugin feature merely provides an interface for you to make these changes."
-msgstr "De rol-manager stelt je in staat om rollen op de website te beheren door je de mogelijkheid te geven om een rol te creëren, te bewerken en te verwijderen. Merk op dat wijzigingen in de rollen niet van invloed zijn op de instellingen van de plugin Members; je verandert letterlijk de gegevens in de WordPress-gegevensbase. Deze plugin  functie biedt je slechts een interface om deze wijzigingen aan te brengen."
+msgstr "De rol-manager stelt je in staat om rollen op de website te beheren door je de mogelijkheid te geven om een rol te creëren, te bewerken en te verwijderen. Merk op dat wijzigingen in de rollen niet van invloed zijn op de instellingen van de plugin Members. Je verandert letterlijk de gegevens in de WordPress database. Deze plugin functie biedt je slechts een interface om deze wijzigingen aan te brengen."
 
 #: admin/functions-help.php:24
 msgid "Support Forums"
@@ -2252,12 +2335,12 @@ msgstr "Documentatie"
 
 #: admin/views/class-view-general.php:340
 msgid "Role and Capabilities"
-msgstr "Rol en competenties"
+msgstr "Rol en rechten"
 
 #: addons/members-admin-access/app/class-view-settings.php:189
 #: admin/views/class-view-general.php:319
 msgid "Update Settings"
-msgstr "Bijwerken Instellingen"
+msgstr "Instellingen bijwerken"
 
 #: admin/views/class-view-general.php:266
 msgid "Show error message for feed items."
@@ -2277,7 +2360,7 @@ msgstr "Sta toe dat gebruikers meer dan één rol toegewezen krijgen."
 
 #: admin/views/class-view-general.php:161
 msgid "Denied capabilities should always overrule granted capabilities."
-msgstr "Afgewezen competenties zouden altijd de toegewezen competenties moeten overrulen."
+msgstr "Afgewezen rechten zouden altijd de toegewezen rechten moeten overrulen."
 
 #: admin/views/class-view-general.php:143
 msgid "Enable the role manager."
@@ -2285,11 +2368,11 @@ msgstr "Schakel de rol van manager in."
 
 #: admin/views/class-view-general.php:128
 msgid "Your roles and capabilities will not revert back to their previous settings after deactivating or uninstalling this plugin, so use this feature wisely."
-msgstr "Je rollen en competenties zullen niet naar hun eerdere instellingen teruggezet kunnen worden na het uitschakelen of verwijderen van deze plugin; gebruik deze functie dus verstandig."
+msgstr "Je rollen en rechten zullen niet naar hun eerdere instellingen teruggezet kunnen worden na het uitschakelen of verwijderen van deze plugin. Gebruik deze functie dus verstandig."
 
 #: admin/views/class-view-general.php:82
 msgid "Feed Error Message"
-msgstr "Feed Foutmelding"
+msgstr "Feed foutmelding"
 
 #: admin/views/class-view-general.php:81
 msgid "Disable Feed"
@@ -2309,7 +2392,7 @@ msgstr "Foutmelding"
 
 #: admin/views/class-view-general.php:75
 msgid "Enable Permissions"
-msgstr "Machtigingen inschakelen"
+msgstr "Rechten inschakelen"
 
 #: admin/views/class-view-general.php:71
 msgid "Multiple User Roles"
@@ -2317,7 +2400,7 @@ msgstr "Meerdere gebruikersrollen"
 
 #: admin/views/class-view-general.php:72
 msgid "Capabilities"
-msgstr "Competenties"
+msgstr "Rechten"
 
 #: admin/views/class-view-general.php:70
 msgid "Role Manager"
@@ -2333,16 +2416,16 @@ msgstr "Zijbalk widgets"
 
 #: admin/functions-help.php:115 admin/views/class-view-general.php:62
 msgid "Roles and Capabilities"
-msgstr "Rollen en competenties"
+msgstr "Rollen en rechten"
 
-#: admin/class-settings.php:325
+#: admin/class-settings.php:330
 msgctxt "admin screen"
 msgid "Members"
 msgstr "Members"
 
 #: admin/class-roles.php:310
 msgid "You can permanently delete multiple roles at once. Select the roles you want to act on using the checkboxes, then select the action you want to take from the Bulk Actions menu and click Apply."
-msgstr "Je kun meerdere rollen in één keer permanent verwijderen. Selecteer de rollen die je wil gebruiken met de selectievakjes, selecteer vervolgens de actie die je wil uitvoeren in het menu bulk acties en klik op toepassen."
+msgstr "Je kan meerdere rollen in één keer permanent verwijderen. Selecteer de rollen die je wil gebruiken met de selectievakjes, selecteer vervolgens de actie die je wil uitvoeren in het menu bulk acties en klik op toepassen."
 
 #: admin/class-roles.php:296
 msgid "<strong>Users</strong> takes you to the users screen and lists the users that have that role."
@@ -2350,11 +2433,11 @@ msgstr "<strong>Gebruikers</strong> brengt je naar het gebruikersscherm en geeft
 
 #: admin/class-roles.php:295
 msgid "<strong>Clone</strong> copies the role and takes you to the new role screen to further edit it."
-msgstr "<strong>Klonen</strong> kopieert de competentie en stuurt je naar het scherm van de nieuwe rol om hem verder te bewerken."
+msgstr "<strong>Klonen</strong> kopieert de rechten en stuurt je naar het scherm van de nieuwe rol om hem verder te bewerken."
 
 #: admin/class-roles.php:294
 msgid "<strong>Delete</strong> removes your role from this list and permanently deletes it."
-msgstr "<strong> verwijderen </strong> verwijdert jouw rol uit deze lijst en verwijdert deze definitief."
+msgstr "<strong>Verwijderen</strong> verwijdert jouw rol uit deze lijst en verwijdert permanent."
 
 #: admin/class-roles.php:293
 msgid "<strong>Edit</strong> takes you to the editing screen for that role. You can also reach that screen by clicking on the role name."
@@ -2366,19 +2449,19 @@ msgstr "Hover over een rij in de lijst van berichten om actie links weer te geve
 
 #: admin/class-roles.php:275
 msgid "You can filter the list of roles by types using the text links in the upper left. The default view is to show all roles."
-msgstr "Je kunt de lijst met rollen filteren op type m.b.v. de tekstlinks linksboven; de standaardweergave is alle rollen tonen."
+msgstr "Je kan de lijst met rollen filteren op type m.b.v. de tekstlinks linksboven; de standaardweergave is alle rollen tonen."
 
 #: admin/class-roles.php:274
 msgid "You can hide/display columns based on your needs and decide how many roles to list per screen using the Screen Options tab."
-msgstr "Je kunt kolommen verbergen/weergeven op basis van je behoeften en bepalen hoeveel rollen je per scherm wil weergeven gebruikmakend van het tabblad Schermopties."
+msgstr "Je kan kolommen verbergen/weergeven op basis van je behoeften en bepalen hoeveel rollen je per scherm wil weergeven gebruikmakend van het tabblad Schermopties."
 
 #: admin/class-roles.php:270
 msgid "You can customize the display of this screen&#8216;s contents in a number of ways:"
-msgstr "Je kunt de weergave van de inhoud van dit scherm op een aantal manieren aanpassen:"
+msgstr "Je kan de weergave van de inhoud van dit scherm op een aantal manieren aanpassen:"
 
 #: admin/class-roles.php:256
 msgid "This screen provides access to all of your user roles. Roles are a method of grouping users. They are made up of capabilities (caps), which give permission to users to perform specific actions on the site."
-msgstr "Dit scherm geeft toegang tot al je gebruikersrollen; rollen zijn een methode om gebruikers te groeperen. Ze bestaan uit competenties (caps), die gebruikers rechten geven om specifieke acties uit te voeren op de website."
+msgstr "Dit scherm geeft toegang tot al je gebruikersrollen. Rollen zijn een methode om gebruikers te groeperen. Ze bestaan uit rechten (caps), die gebruikers rechten geven om specifieke acties uit te voeren op de website."
 
 #: admin/class-roles.php:237
 msgid "Bulk Actions"
@@ -2419,7 +2502,7 @@ msgstr "Naam van rol invoeren"
 
 #: admin/class-role-new.php:345
 msgid "%s Clone"
-msgstr "%s Kloon"
+msgstr "%s kloon"
 
 #: admin/class-role-new.php:327
 msgid "Clone Role"
@@ -2501,7 +2584,7 @@ msgstr "De rol %s kan niet worden bewerkt. Dit betekent dat het waarschijnlijk i
 
 #: admin/class-role-edit.php:226
 msgid "%s role updated."
-msgstr "%s rol is  bijgewerkt."
+msgstr "%s rol isbijgewerkt."
 
 #: admin/class-role-edit.php:99
 msgid "The requested role to edit does not exist."
@@ -2544,12 +2627,12 @@ msgstr "Rol"
 
 #: admin/class-meta-box-custom-cap.php:73 admin/functions-help.php:94
 msgid "Custom Capability"
-msgstr "Aangepaste competentie"
+msgstr "Aangepaste rechten"
 
 #: admin/class-meta-box-content-permissions.php:233
 #: admin/class-meta-box-content-permissions.php:353
 msgid "If no roles are selected, everyone can view the content. The author, any users who can edit the content, and users with the %s capability can view the content regardless of role."
-msgstr "Als er geen rollen zijn geselecteerd kan iedereen de inhoud zien; de berichtauteur, elke gebruiker die de inhoud kan bewerken en gebruikers met competentie %s kunnen de inhoud zien, ongeacht hun rol."
+msgstr "Als er geen rollen zijn geselecteerd kan iedereen de inhoud zien. De berichtauteur, elke gebruiker die de inhoud kan bewerken en gebruikers met rechten %s kunnen de inhoud zien, ongeacht hun rol."
 
 #: admin/class-meta-box-content-permissions.php:213
 #: admin/class-meta-box-content-permissions.php:333
@@ -2576,12 +2659,12 @@ msgstr "Rollen"
 
 #: admin/class-cap-tabs.php:194
 msgid "Edit Capabilities: %s"
-msgstr "Bewerk competenties: %s"
+msgstr "Bewerk rechten: %s"
 
 #: admin/class-cap-control.php:119 admin/functions-admin.php:49
 msgid "Deny %s capability"
-msgstr "Competentie %s weigeren"
+msgstr "Rechten %s weigeren"
 
 #: admin/class-cap-control.php:118 admin/functions-admin.php:48
 msgid "Grant %s capability"
-msgstr "Competentie %s toestaan"
+msgstr "Rechten %s toestaan"

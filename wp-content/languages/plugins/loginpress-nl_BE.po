@@ -2,12 +2,12 @@
 # This file is distributed under the same license as the Plugins - LoginPress | Custom Login Page Customizer - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-02-02 08:24:13+0000\n"
+"PO-Revision-Date: 2022-04-30 13:49:29+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"X-Generator: GlotPress/3.0.0\n"
 "Language: nl_BE\n"
 "Project-Id-Version: Plugins - LoginPress | Custom Login Page Customizer - Stable (latest release)\n"
 
@@ -117,13 +117,13 @@ msgid "Logo Title:"
 msgstr "Logo titel:"
 
 #: classes/class-loginpress-addons.php:194
-#: classes/class-loginpress-addons.php:299
-#: classes/class-loginpress-addons.php:358
+#: classes/class-loginpress-addons.php:303
+#: classes/class-loginpress-addons.php:362
 #: classes/class-loginpress-promotion.php:122
 msgid "UPGRADE NOW"
 msgstr "UPGRADE NU"
 
-#: loginpress.php:437
+#: loginpress.php:466
 msgid "Rate"
 msgstr "Beoordeel"
 
@@ -261,12 +261,12 @@ msgstr "Herinner mij"
 
 #: include/template-loginpress.php:571 include/template-loginpress.php:599
 msgid "Log In"
-msgstr "Inloggen"
+msgstr "Login"
 
 #: custom.php:1194 include/template-loginpress.php:556
 #: include/template-loginpress.php:615
 msgid "Lost your password?"
-msgstr "Je wachtwoord verloren?"
+msgstr "Wachtwoord vergeten?"
 
 #: include/template-loginpress.php:547
 msgid "Registration confirmation will be emailed to you."
@@ -301,7 +301,7 @@ msgstr "&larr; Terug naar %s"
 
 #: include/template-loginpress.php:148
 msgid "Powered by WordPress"
-msgstr "Aangedreven door WordPress"
+msgstr "Mogelijk gemaakt door WordPress"
 
 #: include/template-loginpress.php:147
 msgid "https://wordpress.org/"
@@ -521,19 +521,19 @@ msgstr "Info:"
 msgid "Background Gallery:"
 msgstr "Achtergrond galerij:"
 
-#: classes/class-loginpress-addons.php:424
+#: classes/class-loginpress-addons.php:428
 msgid "You need to upgrade to LoginPress Pro to access these add-ons."
 msgstr "Je moet upgraden naar LoginPress Pro om toegang te krijgen tot deze add-ons."
 
-#: classes/class-loginpress-addons.php:403
+#: classes/class-loginpress-addons.php:407
 msgid "You need to activate your license to download the following add-ons."
 msgstr "Je moet je licentie activeren om de volgende add-ons te downloaden."
 
-#: classes/class-loginpress-addons.php:381
+#: classes/class-loginpress-addons.php:385
 msgid "Your (%2$s) license key is valid until %s."
 msgstr "Je (%2$s) licentiesleutel is geldig tot %s."
 
-#: classes/class-loginpress-addons.php:377
+#: classes/class-loginpress-addons.php:381
 msgid "You have a lifetime license, it will never expire."
 msgstr "Je hebt een levenslange licentie, deze verloopt nooit."
 
@@ -576,7 +576,7 @@ msgstr "Wachtwoord"
 
 #: include/template-loginpress.php:528
 msgid "Register For This Site"
-msgstr "Registreer voor deze website"
+msgstr "Registreren voor deze website"
 
 #: include/template-loginpress.php:433
 msgid "Please enter your username or email address. You will receive a link to create a new password via email."
@@ -688,7 +688,7 @@ msgstr "Koop %s nu"
 msgid "%1$sError:%2$s Invalid Email Address"
 msgstr "%1$sFout:%2$s ongeldig e-mailadres"
 
-#: classes/class-loginpress-addons.php:947
+#: classes/class-loginpress-addons.php:951
 msgid "Extend the functionality of LoginPress with these awesome Add-ons"
 msgstr "Breidt de functionaliteit van LoginPress uit met deze geweldige add-ons"
 
@@ -788,15 +788,15 @@ msgstr "%1$sFout:%2$s ongeldig wachtwoord."
 msgid "%1$sError:%2$s Invalid Username."
 msgstr "%1$sFout:%2$s ongeldige gebruikersnaam."
 
-#: loginpress.php:549
+#: loginpress.php:578
 msgid " | %1$s Opt In %2$s "
 msgstr " | %1$s Opt In %2$s "
 
-#: loginpress.php:547
+#: loginpress.php:576
 msgid " | %1$s Opt Out %2$s "
 msgstr " | %1$s Opt Out %2$s "
 
-#: loginpress.php:284
+#: loginpress.php:313
 msgid "Activate"
 msgstr "Activeer"
 
@@ -897,11 +897,11 @@ msgstr "Overslaan & deactiveren"
 msgid "Kindly tell us the Plugin name."
 msgstr "Vertel ons de naam van de plugin."
 
-#: loginpress.php:555
+#: loginpress.php:584
 msgid "%1$s %3$s Upgrade Pro %4$s %2$s"
 msgstr "%1$s %3$s Upgrade Pro %4$s %2$s"
 
-#: loginpress.php:543
+#: loginpress.php:572
 msgid "%1$s Settings %2$s | %3$s Customize %4$s"
 msgstr "%1$s Instellingen %2$s | %3$s Personaliseren %4$s"
 
@@ -1045,7 +1045,7 @@ msgstr "Negeer notificatie"
 #: include/class-remote-notification-client.php:126
 #: include/class-remote-notification-client.php:137
 msgid "Cheatin&#8217; huh?"
-msgstr "Wat ben jij aan het proberen?"
+msgstr "Valsspelen, hé?"
 
 #: classes/class-loginpress-setup.php:106
 msgid "Customizer"
@@ -1132,7 +1132,7 @@ msgstr "Standaard instellingen hersteld"
 msgid "Choose File"
 msgstr "Kies bestand"
 
-#: loginpress.php:434
+#: loginpress.php:463
 msgid "Vote!"
 msgstr "Stem!"
 
@@ -1140,7 +1140,7 @@ msgstr "Stem!"
 msgid "LoginPress - Customizing the WordPress Login Screen."
 msgstr "LoginPress - Customizing the WordPress Login Screen."
 
-#: classes/class-loginpress-setup.php:102 custom.php:271 loginpress.php:286
+#: classes/class-loginpress-setup.php:102 custom.php:271 loginpress.php:315
 msgid "LoginPress"
 msgstr "LoginPress"
 
