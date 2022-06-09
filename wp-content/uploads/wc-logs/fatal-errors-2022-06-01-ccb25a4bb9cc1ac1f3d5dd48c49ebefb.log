@@ -1,0 +1,23 @@
+2022-06-01T13:33:22+00:00 CRITICAL Uncaught Error: Failed opening required '/customers/3/3/4/smartwise.be/httpd.www/app/wp-content/plugins/woo-product-finder/admin/partials/wpf-add-new-question-page.php' (include_path='.:/usr/share/php') in /customers/3/3/4/smartwise.be/httpd.www/app/wp-content/plugins/woo-product-finder/admin/class-woo-product-finder-admin.php:431
+Stack trace:
+#0 /customers/3/3/4/smartwise.be/httpd.www/app/wp-includes/class-wp-hook.php(307): Woo_Product_Finder_Admin->wpf_add_new_question_page('')
+#1 /customers/3/3/4/smartwise.be/httpd.www/app/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 /customers/3/3/4/smartwise.be/httpd.www/app/wp-includes/plugin.php(476): WP_Hook->do_action(Array)
+#3 /customers/3/3/4/smartwise.be/httpd.www/app/wp-admin/admin.php(259): do_action('dotstore-plugin...')
+#4 {main}
+  thrown in /customers/3/3/4/smartwise.be/httpd.www/app/wp-content/plugins/woo-product-finder/admin/class-woo-product-finder-admin.php op de lijn 431
+
+2022-06-01T13:38:31+00:00 CRITICAL Uncaught TypeError: trim(): Argument #1 ($string) must be of type string, array given in /customers/3/3/4/smartwise.be/httpd.www/app/wp-includes/link-template.php:3786
+Stack trace:
+#0 /customers/3/3/4/smartwise.be/httpd.www/app/wp-includes/link-template.php(3786): trim(Array)
+#1 /customers/3/3/4/smartwise.be/httpd.www/app/wp-admin/includes/plugin.php(1322): set_url_scheme(Array)
+#2 /customers/3/3/4/smartwise.be/httpd.www/app/wp-content/plugins/woo-product-finder/admin/class-woo-product-finder-admin.php(349): add_menu_page('dots_store', 'Woo Product Fin...', 'Woo Product Fin...', 'manage_options', 'wpf-list', Array, 'https://app.sma...', 25)
+#3 /customers/3/3/4/smartwise.be/httpd.www/app/wp-includes/class-wp-hook.php(307): Woo_Product_Finder_Admin->dot_store_menu_wpf('')
+#4 /customers/3/3/4/smartwise.be/httpd.www/app/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#5 /customers/3/3/4/smartwise.be/httpd.www/app/wp-includes/plugin.php(476): WP_Hook->do_action(Array)
+#6 /customers/3/3/4/smartwise.be/httpd.www/app/wp-admin/includes/menu.php(155): do_action('admin_menu', '')
+#7 /customers/3/3/4/smartwise.be/httpd.www/app/wp-admin/menu.php(394): require_once('/customers/3/3/...')
+#8 /customers/3/3/4/smartwise.be/httpd.www/app/wp-admin/admin.php(158): require('/customers/3/3/...')
+#9 {main}
+  thrown in /customers/3/3/4/smartwise.be/httpd.www/app/wp-includes/link-template.php op de lijn 3786
+
