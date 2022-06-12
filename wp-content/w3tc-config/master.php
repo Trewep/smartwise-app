@@ -537,7 +537,9 @@
     "varnish.configuration_overloaded": false,
     "varnish.enabled": false,
     "varnish.debug": false,
-    "varnish.servers": [],
+    "varnish.servers": [
+        ""
+    ],
     "browsercache.configuration_overloaded": false,
     "browsercache.enabled": true,
     "browsercache.rewrite": false,
@@ -899,5 +901,8 @@
     "imageservice": {
         "compression": "lossy",
         "auto": "enabled"
+    },
+    "fragmentcache": {
+        "engine": ""
     }
 }

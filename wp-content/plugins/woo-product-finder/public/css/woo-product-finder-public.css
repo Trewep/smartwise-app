@@ -595,8 +595,19 @@ a#wd_17_que_29_cur_29:hover {
     width: 100%;
     }
 }
-    
+
+@media (max-width: 376px) {
+span.wpf-label-element.wpf-answer-label {
+    width: 86%;
 }
+}
+
+@media (max-width: 351px) {
+span.wpf-label-element.wpf-answer-label {
+    width: 75%;
+}
+}
+
 .tablenav-pages.front_pagination span.pagination-links a.selected{
     background: #cfcfcf !important;
 }
