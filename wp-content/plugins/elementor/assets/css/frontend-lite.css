@@ -711,7 +711,7 @@
     max-width: 1140px; }
   .elementor-section.elementor-section-stretched {
     position: relative;
-    width: 100%; }
+    width: 75%; }
   .elementor-section.elementor-section-items-top > .elementor-container {
     -webkit-box-align: start;
         -ms-flex-align: start;

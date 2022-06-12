@@ -32,8 +32,8 @@
     display: inline-block;
     padding-left: 15px;
     padding-right: 15px;
-    width: 33.33%;
-    margin-bottom: 20px;
+    width: 100%;
+    /*margin-bottom: 20px;*/
 }
 /*.wpf-desktop-image.wpf-active-image {
     min-height: 200px;
@@ -325,10 +325,10 @@
     width: 28px;
     height: 28px;
     background: rgba(255, 255, 255, 0);
-    display: block;
+    display: inline;
     vertical-align: middle;
-    margin: 0 auto 10px;
-
+    /*margin: 0 auto 10px;*/
+    margin: auto 0;
 }
 .roundedTwo label {
     display:none;
@@ -364,10 +364,10 @@
 span.wpf-label-element.wpf-answer-label {
     display: inline-block;
     vertical-align: middle;
-    padding-left: 0;
-    width: 100%;
-    text-align: center;
-    font-size: 25px;
+    padding-left: 8px;
+    width: 90%;
+    text-align: left;
+    font-size: 18px;
 }
 
 div#perfect_product_div_17,div#recently_product_div_17,div#front_pagination_div_17  {
@@ -511,7 +511,7 @@ a#wd_17_que_29_cur_29:hover {
 }
 .wpf-answer-action {
     background: #FFA25C;
-    padding: 12px 15px;
+    padding: 12px 8px;
 }
 .wpf-answer-content.wpf-answer-selector {
     border: solid 1px #f5f5f5;

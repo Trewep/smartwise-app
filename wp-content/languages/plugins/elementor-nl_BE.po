@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Elementor Website Builder - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-06-08 08:53:22+0000\n"
+"PO-Revision-Date: 2022-06-09 17:33:23+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -504,7 +504,7 @@ msgstr "Servicevoorwaarden"
 #. translators: 1. "Terms of service" link, 2. "Privacy policy" link
 #: includes/admin-templates/beta-tester.php:44
 msgid "By clicking Sign Up, you agree to Elementor's %1$s and %2$s"
-msgstr "Door op Aanmelden te klikken, ga je akkoord met Elementor's %1$s en %2$s"
+msgstr "Door op Aanmelden te klikken, ga je akkoord met Elementor %1$s en %2$s"
 
 #: core/logger/log-reporter.php:24
 msgid "Log"
@@ -528,7 +528,7 @@ msgstr "Verberg verouderde WordPress widgets voor zoekresultaten"
 
 #: core/experiments/manager.php:255
 msgid "The “Inline Font Icons” will render the icons as inline SVG without loading the Font-Awsome and the eicons libraries and its related CSS files and fonts. Learn More."
-msgstr "De \"Inline lettertype pictogrammen\" zullen de pictogrammen weergeven als inline SVG zonder de Font Awsome en de eicons bibliotheken en de bijbehorende CSS bestanden en lettertypen te laden. Leer meer."
+msgstr "De \"Inline lettertype iconen\" zullen de pictogrammen weergeven als inline SVG zonder de Font Awsome en de eicons bibliotheken en de bijbehorende CSS bestanden en lettertypen te laden. Leer meer."
 
 #: core/experiments/manager.php:254
 msgid "Inline Font Icons"
